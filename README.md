@@ -1,26 +1,15 @@
-# Mi primer proyecto en Python
+# Mi Primer Proyecto en Python
 
-# Programas
+## Programas
 
-# \# Mi Cajero en Python
+### 🏧 cajero.py
+Un cajero automático creado con Python desde cero.
 
-
-
-\##  ¿Qué es este Proyecto?
-
-Un cajero auntomático creado con Python desde cero.
-
-
-
-
-
-\## ¿Qué hace?
-
-Ver saldo
-
-Ingresar dinero
-
-Retirar dinero
+**¿Qué hace?**
+- Ver saldo
+- Ingresar dinero
+- Retirar dinero
+- Guarda el saldo aunque cierres el programa
 
 ### 🌤️ tiempo.py
 Programa que consulta el tiempo real de Cádiz usando una API.
@@ -31,7 +20,6 @@ Programa que consulta el tiempo real de Cádiz usando una API.
 - Lluvia
 - Viento
 
-
 ## ¿Qué he aprendido?
 - Variables y tipos de datos
 - Funciones
@@ -41,3 +29,4 @@ Programa que consulta el tiempo real de Cádiz usando una API.
 
 ## Autora
 Gala Chacón
+
