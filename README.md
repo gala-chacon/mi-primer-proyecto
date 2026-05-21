@@ -1,3 +1,7 @@
+# Mi primer proyecto en Python
+
+# Programas
+
 # \# Mi Cajero en Python
 
 
@@ -18,23 +22,22 @@ Ingresar dinero
 
 Retirar dinero
 
+### 🌤️ tiempo.py
+Programa que consulta el tiempo real de Cádiz usando una API.
+
+**¿Qué muestra?**
+- Temperatura actual
+- Humedad
+- Lluvia
+- Viento
 
 
-\## ¿Qué he aprendido?
+## ¿Qué he aprendido?
+- Variables y tipos de datos
+- Funciones
+- Bucles y condicionales
+- Archivos
+- APIs
 
-Variables y tipos de datos
-
-Funciones
-
-Bucles while 
-
-Condicionales
-
-
-
-
-
-\## Autora 
-
-Gala Chacón 
-
+## Autora
+Gala Chacón
