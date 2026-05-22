@@ -1,3 +1,11 @@
+from datetime import datetime
+historial = []
+def registrar_movimiento(tipo,cantidad,saldo):
+    ahora = datetime.now().strftime("%d/%m/%Y %H:%M")
+    movimiento = f"^[{ahora}] {tipo}: {cantidad}€ (Saldo: {saldo:.2f}€)"
+    historial.append(movimiento)
+    
+
 def cargar_saldo():
     try:
         with open("saldo.txt", "r") as archivo:
@@ -16,12 +24,14 @@ def ingresar(saldo, cantidad):
     resultado = saldo + cantidad
     print(f"Has ingresado {cantidad}€")
     guardar_saldo(resultado)
+    registrar_movimiento("Ingreso", cantidad, resultado)
     return resultado
 
 def retirar(saldo, cantidad):
     if saldo > cantidad:
         saldo = saldo - cantidad
         print(f"Has retirado {cantidad}€")
+        registrar_movimiento("Retirada", cantidad, saldo)
     else:
         print("Saldo insuficiente")
     guardar_saldo(saldo)
@@ -34,6 +44,7 @@ while True:
     print("2. Ingresar dinero")
     print("3. Retirar dinero")
     print("4. Salir")
+    print("5. Ver historial")
     opcion = input("Elige una opción: ")
     if opcion == "1":
         mostrar_saldo(saldo)
@@ -46,3 +57,11 @@ while True:
     elif opcion == "4":
         print("¡Hasta luego!")
         break
+    elif opcion == "5":
+        if historial:
+            print("📋 Historial de movimientos:")
+            for movimiento in historial:
+                print(movimiento)
+        else:
+            print("No hay movimientos todavía")
+        
