@@ -12,12 +12,23 @@ Un cajero automático creado con Python desde cero.
 - Guarda el saldo aunque cierres el programa
 
 ### 🌤️ tiempo.py
-Programa que consulta el tiempo real de Cádiz usando una API.
+Programa que consulta el tiempo real de **Cádiz** usando una API.
 
 **¿Qué muestra?**
 - Temperatura actual
 - Humedad
 - Lluvia
+- Viento
+
+
+
+### 🌍 buscador_tiempo.py
+Programa que consulta el tiempo de **cualquier ciudad del mundo** usando varias APIs.
+
+**¿Qué muestra?**
+- Temperatura actual
+- Humedad
+- Lluvia 
 - Viento
 
 ## ¿Qué he aprendido?
@@ -26,6 +37,12 @@ Programa que consulta el tiempo real de Cádiz usando una API.
 - Bucles y condicionales
 - Archivos
 - APIs
+- Listas y diccionarios
+- Manejo de errores
+- Git y GitHub
+- Visual Studio Code
+- Operadores
+
 
 ## Autora
 Gala Chacón
