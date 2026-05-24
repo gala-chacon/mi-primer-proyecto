@@ -1,0 +1,4 @@
+Matemáticas: 8.5
+Historia: 7.0
+Inglés: 9.2
+Física: 6.8
