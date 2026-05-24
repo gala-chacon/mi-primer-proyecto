@@ -43,6 +43,22 @@ Programa que consulta el tiempo de **cualquier ciudad del mundo** usando varias 
 - Visual Studio Code
 - Operadores
 
+## 🏋️ Ejercicios de Práctica
+
+### ejercicio1.py
+Gestión de productos con diccionarios, bucles y condicionales.
+
+### ejercicio2.py
+Funciones para calcular media, número mayor y menor de una lista.
+
+### ejercicio3.py
+Bucles con input del usuario para clasificar números pares e impares.
+
+### ejercicio4.py
+Gestión de notas con archivos, lectura y cálculo de media.
+
+### ejercicio5.py
+Agenda de contactos completa con menú interactivo y guardado en archivo.
 
 ## Autora
 Gala Chacón
