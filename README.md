@@ -20,8 +20,6 @@ Programa que consulta el tiempo real de **Cádiz** usando una API.
 - Lluvia
 - Viento
 
-
-
 ### 🌍 buscador_tiempo.py
 Programa que consulta el tiempo de **cualquier ciudad del mundo** usando varias APIs.
 
@@ -30,6 +28,30 @@ Programa que consulta el tiempo de **cualquier ciudad del mundo** usando varias 
 - Humedad
 - Lluvia 
 - Viento
+
+### 🗄️ base_de_datos.py
+Introducción a bases de datos con SQLite.
+
+### 📊 intro_pandas.py
+Introducción a pandas: creación de DataFrames, acceso a datos, filtros y modificaciones.
+
+### 🧹 limpieza.py
+Limpieza de datos con pandas: valores vacíos, relleno y eliminación de duplicados.
+
+### 📈 groupby.py
+Agrupación y resumen de datos con groupby y estadísticas básicas.
+
+### 📉 graficos.py
+Visualización de datos con matplotlib: gráficos de barras, líneas y tarta.
+
+### 🎓 analisis_notas.py
+Proyecto completo de análisis de notas con pandas y matplotlib.
+
+**¿Qué hace?**
+- Crea una tabla con asignaturas, notas y profesores
+- Calcula media, nota más alta y más baja
+- Filtra asignaturas aprobadas
+- Muestra un gráfico de barras
 
 ## ¿Qué he aprendido?
 - Variables y tipos de datos
@@ -42,6 +64,9 @@ Programa que consulta el tiempo de **cualquier ciudad del mundo** usando varias 
 - Git y GitHub
 - Visual Studio Code
 - Operadores
+- Bases de datos con SQLite
+- Análisis de datos con pandas
+- Visualización de datos con matplotlib
 
 ## 🏋️ Ejercicios de Práctica
 
