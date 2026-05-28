@@ -53,6 +53,46 @@ Proyecto completo de análisis de notas con pandas y matplotlib.
 - Filtra asignaturas aprobadas
 - Muestra un gráfico de barras
 
+### 🤖 mi_primer_modelo.py
+Primer modelo de Machine Learning: regresión lineal para predecir precios de casas.
+
+**¿Qué hace?**
+- Predice el precio de una casa según su tamaño y número de habitaciones
+- Visualiza los datos reales vs la predicción del modelo
+
+### 🎯 clasificacion.py
+Modelo de clasificación con KNN para predecir si un estudiante aprobará o suspenderá.
+
+### 🌸 iris.py
+Clasificación con el famoso dataset Iris: identifica especies de flores por sus medidas.
+
+**¿Qué hace?**
+- Entrena un modelo con 120 flores reales
+- Lo evalúa con 30 flores que nunca ha visto
+- Muestra la matriz de confusión y el informe de clasificación
+
+### 📐 normalizacion.py
+Normalización de datos con MinMaxScaler para escalar todas las columnas entre 0 y 1.
+
+### 📉 overfitting.py
+Demostración de overfitting y underfitting comparando modelos con k=1 y k=5.
+
+### 🌳 arbol.py
+Árbol de decisión para clasificar especies de flores con visualización gráfica del árbol.
+
+### 🌲 random_forest.py
+Random Forest con 100 árboles comparado con un árbol individual, incluyendo análisis de importancia de características.
+
+### 🏆 proyecto_estudiantes.py
+Proyecto completo de Machine Learning: predictor de resultados académicos.
+
+**¿Qué hace?**
+- Analiza datos de 20 estudiantes
+- Normaliza los datos automáticamente
+- Entrena y compara 3 modelos: KNN, Árbol de decisión y Random Forest
+- Visualiza la comparación de modelos en un gráfico
+- Predice si un estudiante nuevo aprobará o suspenderá
+
 ## ¿Qué he aprendido?
 - Variables y tipos de datos
 - Funciones
@@ -67,6 +107,12 @@ Proyecto completo de análisis de notas con pandas y matplotlib.
 - Bases de datos con SQLite
 - Análisis de datos con pandas
 - Visualización de datos con matplotlib
+- Machine Learning con scikit-learn
+- Regresión lineal y clasificación
+- Train/Test Split
+- Normalización de datos
+- Árboles de decisión y Random Forest
+- Evaluación de modelos con matriz de confusión
 
 ## 🏋️ Ejercicios de Práctica
 
@@ -87,4 +133,3 @@ Agenda de contactos completa con menú interactivo y guardado en archivo.
 
 ## Autora
 Gala Chacón
-
