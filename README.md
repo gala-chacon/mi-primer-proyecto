@@ -1,5 +1,4 @@
-Aquí tienes el README actualizado:
-markdown# Mi Primer Proyecto en Python
+# Mi Primer Proyecto en Python
 
 ## Programas
 
@@ -104,6 +103,48 @@ Proyecto de Machine Learning con datos reales: predicción de supervivencia en e
 - Analiza qué características fueron más importantes para sobrevivir
 - Descubre que el precio del billete, el género y la edad fueron los factores clave
 
+### 📊 regresion_logistica.py
+Modelo de regresión logística con predicción de probabilidades.
+
+**¿Qué hace?**
+- Clasifica estudiantes en aprobado o suspenso
+- Muestra la probabilidad exacta de cada predicción
+- Útil cuando necesitamos saber la confianza del modelo, no solo el resultado
+
+### 🔄 cross_validation.py
+Evaluación de modelos con cross-validation de 5 partes.
+
+**¿Qué hace?**
+- Compara KNN, Árbol de decisión, Random Forest y Regresión logística
+- Muestra la precisión media y la desviación de cada modelo
+- Evaluación más fiable que un simple train/test split
+
+### 🔍 hiperparametros.py
+Búsqueda automática de la mejor configuración con GridSearchCV.
+
+**¿Qué hace?**
+- Prueba 48 combinaciones diferentes de hiperparámetros
+- Encuentra automáticamente la configuración óptima
+- Descubre que 50 árboles funcionan igual de bien que 100
+
+### 🎨 seaborn_viz.py
+Visualizaciones profesionales con seaborn.
+
+**¿Qué hace?**
+- Boxplot de distribución por especie
+- Scatterplot de relación entre características
+- Mapa de calor de correlaciones
+- Histogramas de distribución por especie
+
+### 🏥 diabetes.py
+Proyecto de Machine Learning con dataset real de diabetes (768 pacientes).
+
+**¿Qué hace?**
+- Analiza datos médicos reales de pacientes
+- Compara 3 modelos con cross-validation
+- Descubre que la glucosa es el factor más importante para predecir diabetes
+- Visualiza la importancia de cada característica con seaborn
+
 ## ¿Qué he aprendido?
 - Variables y tipos de datos
 - Funciones
@@ -120,10 +161,13 @@ Proyecto de Machine Learning con datos reales: predicción de supervivencia en e
 - Visualización de datos con matplotlib
 - Machine Learning con scikit-learn
 - Regresión lineal y clasificación
-- Train/Test Split
+- Regresión logística con probabilidades
+- Train/Test Split y Cross-validation
 - Normalización de datos
 - Árboles de decisión y Random Forest
 - Evaluación de modelos con matriz de confusión
+- Búsqueda de hiperparámetros con GridSearchCV
+- Visualizaciones profesionales con seaborn
 - Limpieza y preparación de datasets reales
 - Análisis de importancia de características
 
