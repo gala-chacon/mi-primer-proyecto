@@ -1,4 +1,5 @@
-# Mi Primer Proyecto en Python
+Aquí tienes el README actualizado:
+markdown# Mi Primer Proyecto en Python
 
 ## Programas
 
@@ -93,6 +94,16 @@ Proyecto completo de Machine Learning: predictor de resultados académicos.
 - Visualiza la comparación de modelos en un gráfico
 - Predice si un estudiante nuevo aprobará o suspenderá
 
+### 🚢 titanic.py
+Proyecto de Machine Learning con datos reales: predicción de supervivencia en el Titanic.
+
+**¿Qué hace?**
+- Carga y limpia el dataset real del Titanic (891 pasajeros)
+- Rellena valores vacíos y convierte datos de texto a números
+- Entrena y compara 3 modelos: KNN (78%), Árbol de decisión (76%) y Random Forest (76%)
+- Analiza qué características fueron más importantes para sobrevivir
+- Descubre que el precio del billete, el género y la edad fueron los factores clave
+
 ## ¿Qué he aprendido?
 - Variables y tipos de datos
 - Funciones
@@ -113,6 +124,8 @@ Proyecto completo de Machine Learning: predictor de resultados académicos.
 - Normalización de datos
 - Árboles de decisión y Random Forest
 - Evaluación de modelos con matriz de confusión
+- Limpieza y preparación de datasets reales
+- Análisis de importancia de características
 
 ## 🏋️ Ejercicios de Práctica
 
