@@ -1,6 +1,17 @@
 # Mi Primer Proyecto en Python
 
-## Programas
+## 📁 Estructura del proyecto
+
+```
+mi_primer_proyecto/
+├── fase1_python/         → Python desde cero
+├── fase2_machine_learning/  → Machine Learning con scikit-learn
+└── fase3_llms/           → LLMs, Prompt Engineering y RAG
+```
+
+---
+
+## 🐍 FASE 1 — Python desde cero
 
 ### 🏧 cajero.py
 Un cajero automático creado con Python desde cero.
@@ -26,11 +37,32 @@ Programa que consulta el tiempo de **cualquier ciudad del mundo** usando varias 
 **¿Qué muestra?**
 - Temperatura actual
 - Humedad
-- Lluvia 
+- Lluvia
 - Viento
 
 ### 🗄️ base_de_datos.py
 Introducción a bases de datos con SQLite.
+
+### 🏋️ Ejercicios de Práctica
+
+#### ejercicio1.py
+Gestión de productos con diccionarios, bucles y condicionales.
+
+#### ejercicio2.py
+Funciones para calcular media, número mayor y menor de una lista.
+
+#### ejercicio3.py
+Bucles con input del usuario para clasificar números pares e impares.
+
+#### ejercicio4.py
+Gestión de notas con archivos, lectura y cálculo de media.
+
+#### ejercicio5.py
+Agenda de contactos completa con menú interactivo y guardado en archivo.
+
+---
+
+## 🤖 FASE 2 — Machine Learning con scikit-learn
 
 ### 📊 intro_pandas.py
 Introducción a pandas: creación de DataFrames, acceso a datos, filtros y modificaciones.
@@ -106,35 +138,14 @@ Proyecto de Machine Learning con datos reales: predicción de supervivencia en e
 ### 📊 regresion_logistica.py
 Modelo de regresión logística con predicción de probabilidades.
 
-**¿Qué hace?**
-- Clasifica estudiantes en aprobado o suspenso
-- Muestra la probabilidad exacta de cada predicción
-- Útil cuando necesitamos saber la confianza del modelo, no solo el resultado
-
 ### 🔄 cross_validation.py
 Evaluación de modelos con cross-validation de 5 partes.
-
-**¿Qué hace?**
-- Compara KNN, Árbol de decisión, Random Forest y Regresión logística
-- Muestra la precisión media y la desviación de cada modelo
-- Evaluación más fiable que un simple train/test split
 
 ### 🔍 hiperparametros.py
 Búsqueda automática de la mejor configuración con GridSearchCV.
 
-**¿Qué hace?**
-- Prueba 48 combinaciones diferentes de hiperparámetros
-- Encuentra automáticamente la configuración óptima
-- Descubre que 50 árboles funcionan igual de bien que 100
-
 ### 🎨 seaborn_viz.py
 Visualizaciones profesionales con seaborn.
-
-**¿Qué hace?**
-- Boxplot de distribución por especie
-- Scatterplot de relación entre características
-- Mapa de calor de correlaciones
-- Histogramas de distribución por especie
 
 ### 🏥 diabetes.py
 Proyecto de Machine Learning con dataset real de diabetes (768 pacientes).
@@ -145,48 +156,124 @@ Proyecto de Machine Learning con dataset real de diabetes (768 pacientes).
 - Descubre que la glucosa es el factor más importante para predecir diabetes
 - Visualiza la importancia de cada característica con seaborn
 
+---
+
+## 🧠 FASE 3 — LLMs, Agentes IA y RAG
+
+### 🤖 mi_primer_llm.py
+Primera llamada a un LLM real desde Python usando la API de Groq y el modelo LLaMA 3.3.
+
+**¿Qué hace?**
+- Conecta con la API de Groq de forma segura usando .env
+- Envía una pregunta al modelo y muestra la respuesta
+- Introduce los conceptos de tokens, temperature y max_tokens
+
+### ✍️ prompt_engineering.py
+Técnicas de Prompt Engineering para obtener mejores respuestas de un LLM.
+
+**Técnicas aplicadas:**
+- Prompts específicos vs vagos
+- Roles con system prompt
+- Formato estructurado
+- Few-shot prompting
+- Chain of Thought
+
+### 🛡️ prompt_avanzado.py
+Prompt Engineering avanzado con técnicas profesionales.
+
+**¿Qué hace?**
+- Prompts negativos para acotar respuestas
+- Respuestas en JSON procesadas con Python
+- Protección contra prompt injection
+
+### 💬 conversacion.py
+Chat con memoria usando historial de mensajes.
+
+**¿Qué hace?**
+- Mantiene el contexto de la conversación
+- Demuestra cómo los LLMs construyen la memoria con el historial
+
+### 🖥️ chat_interactivo.py
+Chat interactivo en tiempo real desde la terminal con streaming.
+
+**¿Qué hace?**
+- Conversación fluida desde la terminal
+- Respuestas en tiempo real palabra a palabra
+- Escribe 'salir' para terminar
+
+### 🧠 memoria_avanzada.py
+Tres soluciones avanzadas para gestionar la memoria en conversaciones largas.
+
+**Soluciones implementadas:**
+- Limitar el historial a los últimos N mensajes
+- Resumir automáticamente cuando el historial crece demasiado
+- Guardar el historial en archivo JSON para persistencia entre sesiones
+
+### 🔢 embeddings.py
+Generación y comparación de embeddings con la API de Google Gemini.
+
+**¿Qué hace?**
+- Convierte texto en vectores numéricos de 3072 dimensiones
+- Calcula similitud coseno entre textos
+- Demuestra búsqueda semántica por significado
+
+### 🗄️ chromadb_intro.py
+Búsqueda semántica con FAISS como base de datos vectorial.
+
+**¿Qué hace?**
+- Genera embeddings de 8 recetas y los guarda en FAISS
+- Busca las 3 recetas más relevantes para cualquier consulta
+- Demuestra búsqueda por distancia L2
+
+### 🏋️ Ejercicios de Práctica Fase 3
+
+#### ejercicio_prompt.py
+Asistente de profesor de idiomas con rol, formato estructurado y prompts negativos.
+
+#### ejercicios_memoria.py
+Agente de viajes con memoria persistente en archivo JSON y streaming en tiempo real.
+
+#### ejercicios_embeddings.py
+Buscador semántico de recetas que devuelve las 3 más relevantes para cualquier consulta.
+
+---
+
 ## ¿Qué he aprendido?
+
+### 🐍 Python y fundamentos
 - Variables y tipos de datos
-- Funciones
-- Bucles y condicionales
-- Archivos
-- APIs
+- Funciones, bucles y condicionales
+- Archivos y manejo de errores
 - Listas y diccionarios
-- Manejo de errores
+- APIs
+- Bases de datos con SQLite
 - Git y GitHub
 - Visual Studio Code
-- Operadores
-- Bases de datos con SQLite
+
+### 🤖 Machine Learning
 - Análisis de datos con pandas
-- Visualización de datos con matplotlib
-- Machine Learning con scikit-learn
-- Regresión lineal y clasificación
-- Regresión logística con probabilidades
+- Visualización con matplotlib y seaborn
+- Regresión lineal y logística
+- Clasificación con KNN
+- Árboles de decisión y Random Forest
 - Train/Test Split y Cross-validation
 - Normalización de datos
-- Árboles de decisión y Random Forest
-- Evaluación de modelos con matriz de confusión
-- Búsqueda de hiperparámetros con GridSearchCV
-- Visualizaciones profesionales con seaborn
-- Limpieza y preparación de datasets reales
-- Análisis de importancia de características
+- Matriz de confusión
+- GridSearchCV para hiperparámetros
+- Datasets reales: Iris, Titanic y Diabetes
 
-## 🏋️ Ejercicios de Práctica
+### 🧠 LLMs e Inteligencia Artificial
+- Qué son los LLMs, tokens, embeddings y transformers
+- Llamadas a APIs de LLMs (Groq, Google Gemini)
+- Prompt Engineering (8 técnicas)
+- Protección contra prompt injection
+- Conversaciones con memoria e historial
+- Streaming en tiempo real
+- Embeddings y similitud semántica
+- Búsqueda semántica con FAISS
+- Bases de datos vectoriales
 
-### ejercicio1.py
-Gestión de productos con diccionarios, bucles y condicionales.
-
-### ejercicio2.py
-Funciones para calcular media, número mayor y menor de una lista.
-
-### ejercicio3.py
-Bucles con input del usuario para clasificar números pares e impares.
-
-### ejercicio4.py
-Gestión de notas con archivos, lectura y cálculo de media.
-
-### ejercicio5.py
-Agenda de contactos completa con menú interactivo y guardado en archivo.
+---
 
 ## Autora
 Gala Chacón
