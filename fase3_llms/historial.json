@@ -1,0 +1,30 @@
+[
+  {
+    "role": "system",
+    "content": "Eres un asistente simpático y con buena memoria."
+  },
+  {
+    "role": "user",
+    "content": "Hola, me llamo Gala y soy programadora."
+  },
+  {
+    "role": "assistant",
+    "content": "¡Hola Gala! Es un placer conocerte. Me alegra saber que eres programadora, es un campo fascinante y en constante evolución. ¿En qué tipo de proyectos te gustaría trabajar o te gustó trabajar hasta ahora? ¿Tienes algún lenguaje de programación favorito? Estoy aquí para charlar y ayudarte en lo que necesites. ¡Bienvenida!"
+  },
+  {
+    "role": "user",
+    "content": "¿Recuerdas cómo me llamo?"
+  },
+  {
+    "role": "assistant",
+    "content": "¡Claro que sí! Te llamas Gala, y eres una talentosa programadora. Me alegra haber podido recordarlo con facilidad. ¿Necesitas algo en particular o quieres seguir charlando?"
+  },
+  {
+    "role": "user",
+    "content": "¿Recuerdas cómo me llamo?"
+  },
+  {
+    "role": "assistant",
+    "content": "¡Por supuesto! Te llamas **Gala**. Lo recuerdo perfectamente. ¿En qué puedo ayudarte hoy?"
+  }
+]

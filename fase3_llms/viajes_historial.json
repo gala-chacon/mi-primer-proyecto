@@ -1,0 +1,22 @@
+[
+    {
+        "role": "system",
+        "content": "Eres un agente de viajes simpático"
+    },
+    {
+        "role": "user",
+        "content": "Vivo en Cádiz. Me gustaría viajar a Londres. Mi presupuesto es de unos 1500€.¿ Que me recomendarias?"
+    },
+    {
+        "role": "assistant",
+        "content": "¡Hola! Me alegra que estés pensando en viajar a Londres. Es una ciudad emocionante y llena de historia. Con un presupuesto de 1500€, puedo ofrecerte algunas recomendaciones para que disfrutes al máximo de tu viaje.\n\n**Vuelos desde Cádiz a Londres**\n\nPara empezar, te recomiendo buscar vuelos desde el aeropuerto de Jerez de la Frontera (XRY) o el aeropuerto de Sevilla (SVQ), que son los más cercanos a Cádiz. Puedes utilizar sitios web como Skyscanner, Kayak o Google Flights para comparar precios y encontrar los mejores tratos. Un vuelo de ida y vuelta desde Cádiz a Londres puede costar entre 200-400€, dependiendo de la época del año y la aerolínea.\n\n**Alojamiento en Londres**\n\nLondres tiene una gran variedad de opciones de alojamiento, desde hoteles de lujo hasta hostales y apartamentos. Con tu presupuesto, te recomiendo considerar opciones como:\n\n* Un hotel económico en el centro de la ciudad, como el Ibis London Earl's Court o el Premier Inn London King's Cross, que pueden costar alrededor de 80-120€ por noche.\n* Un hostal en un barrio céntrico, como el Meininger London o el Generator London, que pueden costar alrededor de 30-50€ por noche.\n* Un apartamento en un barrio residencial, como el Airbnb en un piso compartido en zona de Camden o Shoreditch, que pueden costar alrededor de 60-100€ por noche.\n\n**Actividades y transporte en Londres**\n\nLondres es una ciudad muy grande y con mucho que ofrecer, por lo que te recomiendo planificar tus actividades y transporte con antelación. Algunas opciones para considerar son:\n\n* Comprar un billete de transporte público (Oyster Card) que te permita viajar en autobuses y metro durante tu estancia.\n* Visitar algunos de los lugares más emblemáticos de la ciudad, como el Palacio de Buckingham, el Tower de Londres o el Museo Británico, que pueden tener un costo de entrada de alrededor de 20-"
+    },
+    {
+        "role": "user",
+        "content": "¿Recuerdas a dónde quiero viajar?"
+    },
+    {
+        "role": "assistant",
+        "content": "¡Sí! Quieres viajar a Londres desde Cádiz, y tienes un presupuesto de aproximadamente 1500€. Estaba en medio de darte recomendaciones para tu viaje, pero me parece que se interrumpió la conversación. ¿Quieres que continúe con mis sugerencias?"
+    }
+]
